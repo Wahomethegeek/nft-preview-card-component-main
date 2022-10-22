@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+:root{
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Verydarkblue : hsl(217, 54%, 11%); /* (mainBG)*/
+    --Verydarkblue : hsl(216, 50%, 16%);  /*(cardBG)*/
+    --Verydarkblue : hsl(215, 32%, 27%);  /*(line)*/
+    --White: hsl(0, 0%, 100%);
+    --Fontsize : 18px; /*(paragraph)*/
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit';
+    margin-top: 10px;
+    background-color:hsl(217, 54%, 11%) ;
+}
+
+.container{
+    width: 350px;
+   height: 100%;
+   margin: 0 auto;
+   background-color: hsl(216, 50%, 16%);
+   border-radius: 15px;
+
+    
+    
+}
+
+.equil{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    padding: 20px;
+
+}
+.title{
+    margin-left: 20px;
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 10px;
+}
+.title-2{
+    margin-left: 20px;
+    padding-top: 10px;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+
+}
+.describe{
+    display: flex;
+    gap: 8rem;
+    justify-content: center;
+    /* text-align: center; */
+    padding: 20px; 
+    margin: 10px 0;   
+}
+.icon,.eth,.time{
+    vertical-align: middle;
+    display: inline-block;
+    padding-right: 0.9px; /*space between the svg file and text*/
+    
+}
+.eth{
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);  
+}
+.time{
+    color: hsl(215, 51%, 70%);
+}
+hr{
+  border-color: hsl(215, 32%, 27%);
+  width: 90%;
+  border-style: none;  
+  margin: auto;
+  border-top-style:solid ;
+  
+}
+
+.creation{
+    margin: 20px;
+    padding-bottom: 20px;
+    color: hsl(215, 51%, 70%);
+  
+
+}
+.avatar{
+    width: 40px;
+   border-radius: 50%;
+   border-width: 2px;
+   border-style: solid;
+   border-color: hsl(0, 0%, 100%);
+   vertical-align: middle;
+   margin-right: 20px;
+}
+.name{
+    color:hsl(0, 0%, 100%);
+}
+.attribution { 
+    font-size: 11px;
+     text-align: center;
+     color:hsl(215, 51%, 70%)
+ }
+.attribution a {
+     color: hsl(178, 100%, 50%);
+ }
