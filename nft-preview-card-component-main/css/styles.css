@@ -23,22 +23,44 @@ body{
 }
 
 .container{
-    width: 350px;
+   width: 350px;
    height: 100%;
    margin: 0 auto;
    background-color: hsl(216, 50%, 16%);
    border-radius: 15px;
+   
+}
+.image{
+    position: relative; 
+}
 
-    
-    
+/* setting the overlay position to absolute to the overall image div */
+
+.overlay{
+    position: absolute;
+     width: 320px;
+    height: 315px; 
+    top: 49%;
+    left: 50%;
+    padding-left: 20px;
+    transform: translate(-50%, -50%);
+    background-color: hsl(178, 100%, 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     opacity: 0;
+    border-radius: 10px;
+
+}
+.overlay:hover{
+    opacity: 0.5;
 }
 
 .equil{
-    width: 100%;
-    height: 100%;
+    
     border-radius: 30px;
     padding: 20px;
-
+    width: 100%;
 }
 
 .title{
