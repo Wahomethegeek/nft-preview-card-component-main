@@ -50,14 +50,12 @@ body{
     align-items: center;
      opacity: 0;
     border-radius: 10px;
-
 }
 .overlay:hover{
     opacity: 0.5;
 }
 
 .equil{
-    
     border-radius: 30px;
     padding: 20px;
     width: 100%;
